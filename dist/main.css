@@ -7,23 +7,212 @@ body {
 }
 
 .container {
-    padding-top: 2rem;
-    max-width: 1000px;
-    margin: 0 auto;
-    color: red;
-}
-
-h1 {
-    text-align: center;
-}
-
-.logo {
-    background-image: url(47692505d122dbcae490be2492a60b2e.png);
-    background-size: cover;
-    height: 200px;
-    width: 200px;
+    max-width: 1172px;
     margin: 0 auto;
 }
+
+
+.wrapper {
+  background-image: url(8fbcd31fb001540cc5bcd2bb45a54545.png);
+  background-repeat: no-repeat;
+  height: 1000px; }
+
+.header {
+  display: flex;
+  flex-wrap: wrap; }
+
+.geo {
+  padding-top: 23px;
+  display: flex;
+  flex-wrap: wrap; }
+  .geo__subgeo {
+    padding-left: 11px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 138.27%;
+    color: #FFFFFF; }
+
+.firstLine {
+  display: flex;
+  flex-wrap: wrap;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 17px;
+  color: #FFFFFF;
+  margin-top: 25px; }
+  .firstLine__phone {
+    display: flex;
+    align-items: center;
+    margin-left: 352px; }
+    .firstLine__phone img {
+      padding-right: 14px; }
+  .firstLine__clock {
+    display: flex;
+    align-items: center;
+    margin-left: 48px; }
+    .firstLine__clock img {
+      padding-right: 14px; }
+  .firstLine__leter {
+    display: flex;
+    align-items: center;
+    margin-left: 56px; }
+    .firstLine__leter img {
+      padding-right: 14px; }
+  .firstLine__mark {
+    display: flex;
+    align-items: center;
+    margin-left: 40px; }
+    .firstLine__mark img {
+      padding-right: 12px; }
+
+.subnav {
+  display: flex;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  margin-top: 13px; }
+  .subnav__main {
+    padding-left: 381px; }
+    .subnav__main a {
+      color: #fff;
+      text-decoration: none; }
+  .subnav__services {
+    padding-left: 64px; }
+    .subnav__services a {
+      color: #fff;
+      text-decoration: none; }
+  .subnav__about {
+    padding-left: 50px; }
+    .subnav__about a {
+      color: #fff;
+      text-decoration: none; }
+  .subnav__contacts {
+    padding-left: 42px; }
+    .subnav__contacts a {
+      color: #fff;
+      text-decoration: none; }
+
+.info__text {
+  display: flex;
+  flex-wrap: wrap;
+  width: 771px;
+  height: 154px;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 160%;
+  letter-spacing: 0.02em;
+  margin-top: 118px;
+  color: #FFFFFF; }
+
+.info__subtext {
+  display: flex;
+  flex-wrap: wrap;
+  width: 785px;
+  height: 86px;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 180%;
+  letter-spacing: 0.02em;
+  margin-top: 30px;
+  color: #FFFFFF; }
+
+.read {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 168px;
+  height: 54px;
+  border-radius: 10px;
+  margin-top: 70px;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 25px;
+  color: #FFFFFF;
+  background-color: #005FA3;
+  text-align: center;
+  user-select: none; }
+  .read:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 5px 10px black; }
+  .read:active {
+    transform: translateY(-1px);
+    box-shadow: 0 2px 5px black; }
+
+.slider {
+  margin-top: 83px; }
+
+.el1 {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center; }
+  .el1__active {
+    border-radius: 50%;
+    margin-right: 40px;
+    width: 12px;
+    height: 12px;
+    background: #FFFFFF; }
+  .el1__circle {
+    border-radius: 50%;
+    margin-right: 40px;
+    width: 12px;
+    height: 12px;
+    background: #FFFFFF;
+    opacity: 0.4; }
+  .el1__back {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 831px;
+    width: 66.5px;
+    height: 69.94px;
+    background: #FFFFFF;
+    opacity: 0.2; }
+    .el1__back img {
+      width: 66.5px;
+      height: 69.94px;
+      background: #FFFFFF;
+      transform: rotate(180deg); }
+      .el1__back img:hover {
+        transform: translateY(-3px) rotate(180deg);
+        box-shadow: 0 5px 10px black; }
+      .el1__back img:active {
+        transform: translateY(-1px) rotate(180deg);
+        box-shadow: 0 2px 5px black; }
+  .el1__forward {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 66.5px;
+    height: 69.94px;
+    background: #FFFFFF;
+    opacity: 0.4; }
+    .el1__forward img {
+      background: #FFFFFF;
+      width: 66.5px;
+      height: 69.94px; }
+      .el1__forward img:hover {
+        transform: translateY(-3px);
+        box-shadow: 0 5px 10px black; }
+      .el1__forward img:active {
+        transform: translateY(-1px);
+        box-shadow: 0 2px 5px black; }
+
 .note {
   padding: 1rem;
   border-radius: 5px;
@@ -32,6 +221,69 @@ h1 {
   .note h2 {
     text-align: center;
     color: green; }
+
+@charset "UTF-8";
+.slider {
+  position: relative; }
+  .slider .slick-arrow {
+    position: absolute;
+    top: 50%;
+    z-index: 10;
+    font-size: 0;
+    width: 66.5px;
+    height: 69.94px; }
+  .slider .slick-prev {
+    background: url(d468277f42a64d2a8c81204d234de195.svg) 0 0/100% no-repeat;
+    left: 1040px;
+    top: 529px;
+    background-color: #fff;
+    opacity: .2; }
+  .slider .slick-next {
+    background: url(377a106da674e91416bae8c48782bf17.svg) 0 0/100% no-repeat;
+    right: 0;
+    top: 529px;
+    background-color: #fff;
+    opacity: .2; }
+  .slider .slick-dots {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start; }
+    .slider .slick-dots li {
+      list-style: none;
+      margin: 0 10px; }
+      .slider .slick-dots li button {
+        font-size: 0;
+        width: 10px;
+        height: 15px;
+        background-color: #fff;
+        border-radius: 50%; }
+    .slider .slick-dots .slick-active button {
+      background-color: transparent;
+      border: 1px solid #fff; }
+
+/* Слайдер */
+/* Слайдер запущен */
+/* Слайдер с точками */
+/* Ограничивающая оболочка */
+.slick-list {
+  overflow: hidden; }
+
+/* Лента слайдов */
+.slick-track {
+  display: flex; }
+
+/* Слайд */
+/* Слайд активный (показывается) */
+/* Слайд основной */
+/* Слайд по центру */
+/* Клонированный слайд */
+/* Стрелка */
+/* Стрелка влево */
+/* Стрелка вправо */
+/* Стрелка не активная */
+/* Точки (булиты) */
+/* Активная точка */
+/* Элемент точки */
 
 
 /*# sourceMappingURL=main.css.map*/
