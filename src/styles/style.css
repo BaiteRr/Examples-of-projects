@@ -1,12 +1,16 @@
 @import "~normalize.css";
-@import "roboto.css";
 
-
-body {
-    font-family: 'Roboto', sans-serif;
+* {
+    margin: 0;
+    padding: 0;
 }
 
 .container {
+    max-width: 1172px;
+    margin: 0 auto;
+}
+
+.section {
     max-width: 1172px;
     margin: 0 auto;
 }
