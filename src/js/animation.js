@@ -15,9 +15,9 @@ const markImg = document.querySelector('.firstLine__markImg')
 window.onscroll = function () {
     if (window.pageYOffset > 750) {
         header.style.cssText = 'position: absolute; margin-top: 800px'
-        slider.style.cssText = 'padding-top: 191px; margin-top: 0'
-        subGeo.style.color = '#005FA3'
+        slider.style.cssText = 'padding-top: 156px; margin-top: 0'
         geo.style.cssText = 'background-image: url("../img/bearth.png")'
+        subGeo.style.color = '#005FA3'
         firstLine.style.color = 'black'
         subnav1.style.color = 'black'
         subnav2.style.color = 'black'
@@ -27,8 +27,9 @@ window.onscroll = function () {
         clockImg.style.cssText = 'background-image: url("../img/bclock.png")'
         leterImg.style.cssText = 'background-image: url("../img/bemail.png"); height: 15px'
         markImg.style.cssText = 'background-image: url("../img/bmark.png")'
-    } else if (window.pageYOffset > 10) {
-        header.style.cssText = 'position: absolute; margin-top: 10px'
+    } else {
+        header.style.cssText = 'position: absolute;'
+        slider.style.cssText = 'padding-top: 156px; margin-top: 0'
         subGeo.style.color = '#FFFFFF'
         geo.style.cssText = 'background-image: url("../img/earth.png")'
         firstLine.style.color = '#FFFFFF'
